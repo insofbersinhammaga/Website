@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  background-color: rgb(17, 154, 133);
+  padding: 0 20px;
+}
+.content {
+  background-color: #fff;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px 60px;
+  border-radius: 5px;
+  padding-bottom: 170px;
+  background-image: url(./img/bicycle.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center 250px;
+  box-shadow: 0 5px 5px 0 rgb(51, 51, 51);
+}
+.top-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.top-text {
+  color: gray;
+  margin-bottom: 35px;
+}
+.price-list {
+  list-style-type: none;
+}
+.price-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.price-item:nth-child(3) .product-name {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+}
+.price {
+  font-weight: 900;
+  font-size: 22px;
+  margin-left: 15px;
+}
+.product-name {
+  color: gray;
+}
+.heading-top {
+  
+}
+.user-icon {
+  width: 55px;
+  height: 55px;
+  padding: 6px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3 ease;
+}
+.user-icon:hover {
+  box-shadow: 0 0 4px 4px rgb(155, 145, 145);
+}
+@media only screen and (max-width: 470px) {
+  .content {
+    background-position: center 270px;
+    padding: 20px 30px 130px 30px;
+  }
+  .heading-top {
+  font-size: 20px;
+  }
+  .user-icon {
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+  }
+  .top-text {
+    font-size: 14px;
+  }
+  .price {
+    font-size: 18px;
+  }
+  .product-name {
+    font-size: 16px;
+  }
+  .price-item:nth-child(3) .product-name {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+
+
+
